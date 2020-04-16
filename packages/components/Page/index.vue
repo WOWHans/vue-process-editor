@@ -80,7 +80,7 @@ export default {
 
 <style lang="scss" scoped>
 .page {
-  margin-left: 200px;
-  margin-right: 350px;
+  // margin-left: 200px;
+  // margin-right: 350px;
 }
 </style>

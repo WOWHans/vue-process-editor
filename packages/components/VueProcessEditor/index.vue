@@ -1,18 +1,20 @@
 <template>
   <div id="mountNode" :style="{width:width}">
+    <toolbar />
     <div class="editor">
       <!--toolbar-->
-      <toolbar />
+      
       <div style="height: 42px;"></div>
       <div class="bottom-container">
         <!--itempannel-->
         <item-panel />
+        <page :height="height" :width="width" />
         <!--miniMap-->
         <!-- <minimap /> -->
         <!--detailpannel-->
         <detail-panel />
         <!--page-->
-        <page :height="height" :width="width" />
+        
       </div>
     </div>
     <Flow />
@@ -274,6 +276,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#mountNode {
+  display: flex;
+  flex-direction: column;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+}
 .editor {
   width: 100%;
   user-select: none;

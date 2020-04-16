@@ -421,8 +421,8 @@ export default {
 <style lang="scss" scoped>
 .detailpannel {
   height: 100%;
-  position: absolute;
-  right: 0px;
+  // position: absolute;
+  // right: 0px;
   z-index: 2;
   background: #f7f9fb;
   width: 349px;

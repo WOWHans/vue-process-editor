@@ -31,8 +31,6 @@ export default {
 <style scoped>
 .itempannel {
   height: 100%;
-  position: absolute;
-  left: 0px;
   z-index: 2;
   background: #f7f9fb;
   width: 199px;
